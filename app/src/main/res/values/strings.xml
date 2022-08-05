@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Weather Task</string>
+    <string name="today_holder">Fri Aug, 05</string>
+    <string name="city_holder">Cairo</string>
+    <string name="feel_like_holder">55°</string>
+    <string name="holder_hour">11pm</string>
+    <string name="holder_temp">33°</string>
+</resources>
