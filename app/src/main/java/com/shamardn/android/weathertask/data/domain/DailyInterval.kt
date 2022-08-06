@@ -9,4 +9,5 @@ data class DailyInterval(
     @SerializedName("dt") val date: Long,
     val humidity: Int,
     @SerializedName("wind_speed") val wind: Double,
+    val weather: List<WeatherCode>
 )

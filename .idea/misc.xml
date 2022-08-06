@@ -5,7 +5,8 @@
       <map>
         <entry key="..\:/Kotlin/Bareq_course/WeatherTask/app/src/main/res/drawable/rounded_bg.xml" value="0.199" />
         <entry key="..\:/Kotlin/Bareq_course/WeatherTask/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Kotlin/Bareq_course/WeatherTask/app/src/main/res/layout/item_daily.xml" value="0.5585331452750353" />
+        <entry key="..\:/Kotlin/Bareq_course/WeatherTask/app/src/main/res/layout/item_daily.xml" value="0.1" />
+        <entry key="..\:/Kotlin/Bareq_course/WeatherTask/app/src/main/res/layout/item_header.xml" value="0.25" />
         <entry key="..\:/Kotlin/Bareq_course/WeatherTask/app/src/main/res/layout/item_temp_hourly.xml" value="0.4017991004497751" />
       </map>
     </option>

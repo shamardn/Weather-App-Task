@@ -10,5 +10,6 @@ data class CurrentInterval(
     @SerializedName("wind_speed") val wind: Double,
     @SerializedName("sunrise") val sunrise: Long,
     @SerializedName("sunset") val sunset: Long,
+    val weather: List<WeatherCode>
 
     )
