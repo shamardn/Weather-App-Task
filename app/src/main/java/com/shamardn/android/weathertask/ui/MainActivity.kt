@@ -18,7 +18,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         setup()
     }
 
@@ -37,19 +36,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun callBack(interval: Interval) {
-        binding.apply {
-            tvFeelLike.text = "${interval.current.temp.toInt()}°C"
-            tvCity.text = interval.city.extractCityName()
-            tvToday.text = interval.current.today.formatDate("EEE MMM, dd")
-            tvHumidityValue.text = "${interval.current.humidity.toString()}%"
-            tvWindValue.text = "${interval.current.wind}m/s"
-            tvSunriseTime.text = interval.current.sunrise.formatDate("h:mm a")
-            tvSunsetTime.text = interval.current.sunset.formatDate("h:mm a")
-
-            val weatherAdapter = WeatherAdapter(interval)
-            rvDailyWeather.adapter = weatherAdapter
-
-        }
+        val weatherAdapter = WeatherAdapter(interval)
+        binding.rvDailyWeather.adapter = weatherAdapter
     }
 
 }
